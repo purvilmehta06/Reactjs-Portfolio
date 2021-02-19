@@ -1,4 +1,4 @@
-# Portfolio Website - Niharika Dalsania
+# Portfolio Website
 This is personal resume/portfolio website created with React.js
 
 ## Download Dependencies 
