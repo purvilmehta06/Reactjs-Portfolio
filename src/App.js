@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import Resume from './components/Resume';
 import Skill from "./components/Skill";
 import Awards from "./components/Awards";
+import { Sugar } from 'react-preloaders';
 
 function App() {
   const [data,setData]=useState([]);
@@ -33,6 +34,7 @@ function App() {
   },[])
   return (
     <div>
+      <Sugar background="linear-gradient(90deg, rgba(69,73,98,1) 0%, rgba(223,223,223,1) 49%, rgba(255,135,144,1) 100%)"/>
       <Banner data={data.banner}/>
       <Nav data={data.navigation}/>
       <About data={data.about}/>
