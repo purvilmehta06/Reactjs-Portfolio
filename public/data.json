@@ -1,0 +1,251 @@
+{
+  "skills":{
+    "subHeading":"Skills",
+    "text":"THE BEST WAY TO SHARPEN YOUR SKILLS IS TO USE THEM.",
+    "skillSet1":[
+      {
+        "id":1,
+        "name":"Machine Learning",
+        "class":"progress percent80",
+        "percentage":80
+      },
+      {
+        "id":2,
+        "name":"Computational Finanace",
+        "class":"progress percent60",
+        "percentage":60
+      },
+      {
+        "id":3,
+        "name":"Deep Leaning",
+        "class":"progress percent75",
+        "percentage":75
+      }
+    ],
+    "skillSet2":[
+      {
+        "id":4,
+        "name":"Python",
+        "class":"progress percent80",
+        "percentage":80
+      },
+      {
+        "id":5,
+        "name":"Database",
+        "class":"progress percent75",
+        "percentage":75
+      }
+    ]
+  },
+  "about":{
+    "subHeading":"About Me",
+    "text":"I'M NOT PERFECT, I'M ORIGINAL",
+    "state":[
+      { "id": 1, "title": "Name", "text": "Niharika Dalsania" },
+      { "id": 2, "title": "Email", "text": "dalsanianiharika@gmail.com" },
+      { "id": 3, "title": "Degree", "text": "BTech" },
+      { "id": 4, "title": "City", "text": "Madison, Alabama" }
+    ],
+    "aboutMe":"I'm a curious, passionate and dedicated undergrad, all set to graduate in 2021. Loves Programming and Machine Learning. Enriched by exploring industrial working experience as well as research. Powerful fundamentals of Computational Science and practical implementation. Aspires to use skills and knowledge to make a difference in the real world. Looks forward to connecting! :)"
+  },
+  "banner":{
+    "title": "I am Niharika Dalsania",
+    "image": "/images/potrait-removebg.png",
+    "buttonName":"My Portfolio",
+    "portfolioLink":"#",
+    "social":[
+      {
+        "id":1,
+        "name":"Github",
+        "link":"https://github.com/ND612"
+      },
+      {
+        "id":2,
+        "name":"Linkedin",
+        "link":"https://www.linkedin.com/in/niharika-dalsania-0791021a9"
+      },
+      {
+        "id":3,
+        "name":"Kaggle",
+        "link":"https://www.kaggle.com/niharikadalsania"
+      }
+    ]
+  },
+  "navigation":{
+    "imgSource":"/images/logo.png",
+    "sectionName":[
+      {"id":1,"name":"Home","link":"#"},
+      {"id":2,"name":"About","link":"#about"},
+      {"id":3,"name":"Resume","link":"#resume"},
+      {"id":4,"name":"Skill","link":"#skill"},
+      {"id":5,"name":"Achievements","link":"#awards"},
+      {"id":6,"name":"Project","link":"#projects"},
+      {"id":7,"name":"Contact","link":"#contact"}
+    ]
+  },
+  "projects":{
+    "subHeading": "My Projects",
+    "text":"A PROJECT IS COMPLETE WHEN IT STARTS WORKING FOR YOU, RATHER THAN YOU WORKING FOR IT.",
+    "project":[
+      {
+        "id": 1,
+        "heading": "Deep Leaning",
+        "title":"Image to image translation using Generative Adversarial Networks",
+        "text":
+          "Performed detailed analysis of shortcomings in the current single domain to domain image translation models via literature review. Reproduced the results of the paper “StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation” which implements StarGAN and compared all the models to identify the superior one."
+      },
+      {
+        "id": 2,
+        "heading": "Complex Networks",
+        "title": "Large Scale Analysis of disease pathways using human interactome",
+        "text":
+          "Characterized the data of the large human protein protein interaction (PPI) network and reduced the data size without significant information loss in the biological network for efficient computation. Evaluated performance of different disease pathway discovery methods over this data and identified reasons for their potential failure in prediction. Quantitative analysis of the dataset to support the results."
+      },
+      {
+        "id": 3,
+        "heading": "Parallel Computing",
+        "title":"Large Scale Analysis of disease pathways using human interactome",
+        "text":
+          "Devised a parallel algorithm using optimal cache for finding longest common subsequence using OpenMP for Multi-Core processors. Analyzed performance using different scheduling constructs. Calculated several metrics to quantitatively show that results achieved (speedup factor 3.7 for 8 threads) are very close to the maximum achievable performance for a parallel algorithm."
+      }
+    ]
+  },
+  "contact":{
+    "imgSource":"/images/logo.png",
+    "text":"The only way to do great work is to love what you do. If you haven't fount it yet, keep looking. Don't settle.",
+    "info":[
+      {
+        "id":1,
+        "name":"Location",
+        "value":"Madison, Alabama, USA"
+      },
+      {
+        "id":2,
+        "name":"Email",
+        "value":"dalsanianiharika@gmail.com"
+      },
+      {
+        "id":3,
+        "name":"Call",
+        "value":"+91 9924446718"
+      }
+    ]
+  },
+  "resume":{
+    "subHeading": "Resume",
+    "text":"EXPERIENCE IS NOT WHAT HAPPENS TO YOU, IT'S WHAT YOU DO WITH WHAT HAPPENS TO YOU.",
+    "education":[
+      {
+        "id":3,
+        "title":"Future cadidate for Masters in Computational Finance Engineering",
+        "heading":"Got offer letter from Cornell, GTech, NYU. Still pending at Princeton, Stanford.",
+        "timeStamp":"Aug, 2021 - Mar, 2023",
+        "text":"Looking forward to study Finance with ML based modeling applied.",
+        "awards":""
+      },
+      {
+        "id":1,
+        "title":"Bachelor of Technology in Information and Communication Technology minor in Computational Science",
+        "heading": "Dhirubhai Ambani Institute of Information and Communication Technology",
+        "timeStamp":"2017 - Present",
+        "text":"Combined course of Computer Science, Information and Electronic Communication. It also provides the computaional and numerical methods to solve the real time problems.",
+        "awards":"CGPA: 9.53/10"
+      },
+      {
+        "id":2,
+        "title":"10+2 Higher Education",
+        "heading": "PV Modi High School",
+        "timeStamp": "2015 - 2017",
+        "text": "Secured 99.99 percentile in SSC (10th Gujarat Board) and 99.99 percentile in HSC (12th Gujarat Board)",
+        "awards":"HSC Rank: 1"
+      }
+    ],
+    "exp":[
+      {
+        "id":1,
+        "title":"Product Engineer Intern",
+        "data":[
+          {
+            "id":1,
+            "timeStamp":"Feb, 2021 - Present",
+            "heading":"Spriklr, Gurgaon, India",
+            "text":"Working on Asuncio, Docker and Model Development"
+          }
+        ],
+        "timeStamp":["Feb, 2021 - Present"],
+        "heading":["Spriklr, Gurgaon, India"],
+        "text":["Worked on Multilingual Toxic Comment Classification. Implemented a range of approaches from baseline classifiers to sophisticated models like Cross Language Modelling RoBERTa (XLM-R) and ensemble models. Further extend the work to a fully functional Document Classifier."]
+      },
+      {
+        "id":4,
+        "title":"Computational Finance Intern",
+        "data":[
+          {
+            "id":1,
+            "heading":"Indian Institute of Management Ahmedabad",
+            "timeStamp":"Jan, 2020 - Present",
+            "text":"Working on building a web app using shiny package in R language for Option Pricing using Black Scholes model, Greeks/Advanced Greeks pricing for a portfolio of options."
+          }
+        ]
+      },
+      {
+        "id":3,
+        "title":"Machine Learning Intern",
+        "data":[
+          {
+            "id":1,
+            "heading":"Spriklr, Gurgaon, India",
+            "timeStamp":"May, 2020 - Jun, 2020",
+            "text":"Worked on Multilingual Toxic Comment Classification. Implemented a range of approaches from baseline classifiers to sophisticated models like Cross Language Modelling RoBERTa (XLM-R) and ensemble models. Further extend the work to a fully functional Document Classifier."
+          }
+        ]
+      },
+      {
+        "id":2,
+        "title":"Dhirubhai Ambani Institude of Information and Communication Technology",
+        "data":[
+          {
+            "id":1,
+            "timeStamp":"Aug, 2020 - Dec, 2020",
+            "heading":"Linear Algebra Teaching Assistant",
+            "text":"Conduct weekly tutorials. Assist the professor in structuring the course and evaluating student performance."
+          },
+          {
+            "id":2,
+            "timeStamp":"Dec, 2019 - Dec, 2020",
+            "heading":"Undergraduate Researcher (in collaboration with Institute for Plasma Research)",
+            "text":"Devised a novel approach for synthetic time series data generation for tokamak plasma disruption. Built a model for identifying pre-disruptive current that acts as a precursor for predicting disruption. Presented the work at International Conference Of Plasma Sciences 2020."
+          },
+          {
+            "id":3,
+            "heading":"Member of Programming Club",
+            "timeStamp":"Aug, 2018 - Jun, 2020",
+            "text":"Associated with of the programming club at DA-IICT for about 2 years now. Responsibilities included conducting regular sessions for teaching new topics to students and creating/managing coding contests for entire student community."
+          }
+        ],
+        "timeStamp":["Aug, 2020 - Dec, 2020", "Dec, 2019 - Dec, 2020","Aug, 2018 - Jun, 2020"],
+        "heading":["Linear Algebra Teaching Assistant","Undergraduate Researcher (in collaboration with Institute for Plasma Research)", "Member of Programming Club"],
+        "text":["Conduct weekly tutorials. Assist the professor in structuring the course and evaluating student performance.", "Devised a novel approach for synthetic time series data generation for tokamak plasma disruption. Built a model for identifying pre-disruptive current that acts as a precursor for predicting disruption. Presented the work at International Conference Of Plasma Sciences 2020.","Associated with of the programming club at DA-IICT for about 2 years now. Responsibilities included conducting regular sessions for teaching new topics to students and creating/managing coding contests for entire student community."]
+      }
+    ]
+  },
+  "awards":{
+    "subHeading":"Achievements",
+    "text":"COMFORT IS THE ENEMY OF ACHIEVEMENT",
+    "firstChild":"Rank 1 in State Board examinations in all 4 semesters of grade 11-12 (out of a total of above 70,000 students)",
+    "achv":[
+      {
+        "id":"item1",
+        "name":"Recipient of Dhirubhai Ambani Scholarship by Reliance Foundation"
+      },
+      {
+        "id":"item2",
+        "name":"Among the top 1% students who were offered scholarship of 0.8 lakhs under the INSPIRE initiative for pursuing pure science"
+      },
+      {
+        "id":"item3",
+        "name":"Recipient of Certificate of Appreciation from University Dean for best summer internship presentation (Multilingual Toxic Comment Classification - Sprinklr)"
+      }
+    ]
+  }
+}
