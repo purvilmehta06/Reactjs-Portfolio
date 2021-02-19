@@ -1,7 +1,11 @@
 import React from "react";
 import { FaAlignJustify } from "react-icons/fa";
 const Nav = (props) => {
-  const [state, setState] = React.useState(true);
+  var navigationWidth = true
+  if(window.innerWidth<400){
+    navigationWidth = false
+  }
+  const [state, setState] = React.useState(navigationWidth);
   if(props.data){
     var imageSource = props.data.imgSource
     var navigation = props.data.sectionName.map(function(navigation){
@@ -17,7 +21,7 @@ const Nav = (props) => {
               <img src={imageSource} alt="logo" />
             </div>
           </ul>
-          {state ? (
+          {state && !state.nav2? (
             <ul className="navbar__right">{navigation}</ul>
           ) : (
             ""

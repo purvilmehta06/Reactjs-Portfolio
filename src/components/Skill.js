@@ -32,7 +32,7 @@ const Skill = (props) => {
           <div className="col-6">
             <ul className="skill-bars-fat">{skillSet1}</ul>
           </div>
-          <div className="col-6">
+          <div id="secondSkill" className="col-6">
           <ul className="skill-bars-fat">{skillSet2}</ul>
           </div>
         </div>
