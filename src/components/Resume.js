@@ -1,36 +1,40 @@
-import React,{Fragment} from "react";
+import React, { Fragment } from "react";
 
 const Resume = (props) => {
-  if(props.data){
-    var subHeading = props.data.subHeading
-    var text = props.data.text
-    var education = props.data.education.map(function(education){
-      return <div key={education.id} className="resume-item">
-      <h4>{education.title}</h4>
-      <h6>{education.heading}</h6>
-      <h5>{education.timeStamp}</h5>
-      <p>{education.text}</p>
-      <p>{education.awards}</p>
-    </div>
-    })
+  if (props.data) {
+    var subHeading = props.data.subHeading;
+    var text = props.data.text;
+    var education = props.data.education.map(function (education) {
+      return (
+        <div key={education.id} className="resume-item">
+          <h4>{education.title}</h4>
+          <h6>{education.heading}</h6>
+          <h5>{education.timeStamp}</h5>
+          <p>{education.text}</p>
+          <p>{education.awards}</p>
+        </div>
+      );
+    });
 
-    var exp = props.data.exp.map(function(exp){
-      return <div key={exp.id} className="resume-item">
-      <h4>{exp.title}</h4>
-      {
-        exp.data.map(function(dataOfExp){
-          return <Fragment key={dataOfExp.id}>
-            <h6>{dataOfExp.heading}</h6>
-            <h5>{dataOfExp.timeStamp}</h5>
-            <p>{dataOfExp.text}</p>
-          </Fragment>
-        })
-      }
-    </div>
-    })
+    var exp = props.data.exp.map(function (exp) {
+      return (
+        <div key={exp.id} className="resume-item">
+          <h4>{exp.title}</h4>
+          {exp.data.map(function (dataOfExp) {
+            return (
+              <Fragment key={dataOfExp.id}>
+                <h6>{dataOfExp.heading}</h6>
+                <h5>{dataOfExp.timeStamp}</h5>
+                <p>{dataOfExp.text}</p>
+              </Fragment>
+            );
+          })}
+        </div>
+      );
+    });
   }
   return (
-    <div id="resume" className = "resume">
+    <div id="resume" className="resume">
       <div className="container">
         <div className="common">
           <h1 className="mainHeader">{subHeading}</h1>
@@ -47,9 +51,9 @@ const Resume = (props) => {
             {exp}
           </div>
         </div>
-      </div>  
+      </div>
     </div>
-  )
+  );
 };
 
 export default Resume;

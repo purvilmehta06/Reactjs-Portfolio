@@ -1,17 +1,18 @@
 import React from "react";
 
 const About = (props) => {
-  if(props.data){
-    var subHeading = props.data.subHeading
-    var text = props.data.text
-    var aboutMe = props.data.aboutMe
-    var state = props.data.state.map(function(state){
-      return <div key={state.id} className="col-6">
-        <strong>{state.title}</strong>
-        <p>{state.text}</p>
-      </div>
-        
-    })
+  if (props.data) {
+    var subHeading = props.data.subHeading;
+    var text = props.data.text;
+    var aboutMe = props.data.aboutMe;
+    var state = props.data.state.map(function (state) {
+      return (
+        <div key={state.id} className="col-6">
+          <strong>{state.title}</strong>
+          <p>{state.text}</p>
+        </div>
+      );
+    });
   }
   return (
     <div id="about" className="about">
